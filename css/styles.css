@@ -72,13 +72,13 @@ img {
   align-items: center;
 }
 
-#progress {
+.quiz-header #progress {
   color: var(--color-dark-grey);
   font-size: 1.6rem;
   font-weight: 700;
 }
 
-#count-down {
+.quiz-header #count-down {
   font-size: 1.6rem;
   font-weight: 700;
   background-color: orangered;
@@ -86,11 +86,9 @@ img {
   margin: 1px;
   color: var(--white);
   border-radius: 5px;
-  width: 30px;
-
 }
 
-#question {
+.quiz-header #question {
   font-size: 1.8rem;
   font-weight: 600;
   color: orangered;
@@ -134,8 +132,10 @@ img {
 }
 
 .quiz-repeat {
-  text-align: center;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .quiz-repeat a {
